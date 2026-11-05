@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    color: #222222;
+}
+
+header {
+    background-color: #263b29;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #18271a;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+
+nav a:hover {
+    background-color: #49634c;
+}
+
+main {
+    max-width: 1000px;
+    margin: 20px;
+    padding: 15px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: white;
+}
+
+a {
+    color: #263b29;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    background-color: #dce5dc;
+}
+
+.apresentacao div {
+    width: 550px;
+    max-width: 100%;
+}
+
+.apresentacao img {
+    width: 200px;
+    max-width: 100%;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    position: relative;
+    width: 250px;
+    padding: 15px;
+    border: 1px solid #49634c;
+    border-radius: 10px;
+    background-color: #f3f5f3;
+}
+
+.card img {
+    width: 100%;
+}
+
+.etiqueta {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #f0ce55;
+    color: #222222;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.informacoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.informacoes div {
+    background-color: #dce5dc;
+    border: 1px solid #49634c;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #777777;
+    padding: 10px;
+    text-align: left;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #263b29;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.voltar-topo {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background-color: #263b29;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    text-decoration: none;
+} 
